@@ -7,6 +7,7 @@ from django.contrib.auth import get_user_model
 from wsgiref.util import FileWrapper
 import os
 
+from django.core.exceptions import FieldDoesNotExist
 import django_filters.rest_framework
 from rest_framework import generics, mixins, permissions
 from rest_framework.views import APIView
