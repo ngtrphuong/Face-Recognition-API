@@ -185,3 +185,4 @@ django_heroku.settings(locals())
 PROJECT_ROOT = os.path.realpath(os.path.dirname(__file__))
 STATIC_ROOT = PROJECT_ROOT + STATIC_URL
 MEDIA_ROOT = PROJECT_ROOT + MEDIA_URL
+SESSION_COOKIE_SECURE = True
